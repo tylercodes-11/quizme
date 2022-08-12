@@ -4,17 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="style.css">
-    <title>Quiz Me!</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App!</title>
 </head>
 <body>
-    <h1 class="header">World Quiz</h1>
+    <h1 class="header">Simple Math Quiz</h1>
+    <div id="quiz"> 
+        <h2>What is 8 + 3?</h2><br>
 
-    <div id="quiz"></div>
-    <button id="submit">Get Results</button>
-    <div id="results"></div>
+        <input type="radio" name="question1"> 10
+        <input type="radio" name="question1" id="correct1">11
+        <input type="radio" name="question1">13
+        <input type="radio" name="question1"> 17
+        <div id="correctfeedback1"></div>
+
+        <h2> What is 24 + 23 </h2> <br>
+
+        <input type="radio" name="question2">54
+        <input type="radio" name="question2" id="correct2">47
+        <input type="radio" name="question2">40
+        <input type="radio" name="question2">52
+        <div id="correctfeedback2"></div>
+
+        <h2> What is 49 + 432 </h2><br>
+        
+        <input type="radio" name="question3"> 460
+        <input type="radio" name="question3" id="correct3"> 481
+        <input type="radio" name="question3">482
+        <input type="radio" name="question3">436
+        <div id="correctfeedback3"></div>
+
+    <input type="submit" id="submit" name="submit" value="Submit Quiz" onclick="result()">
+    </div>
     
 
     
 </body>
+<script src="script.js"></script>
 </html>
