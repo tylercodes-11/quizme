@@ -9,7 +9,7 @@ Welcome to the Quiz Me! Challenge your math skills with this simple math quiz.
 
 ### Gameplay Instructions
 
-1. Click oyur answer in the radio button you choose for each question.
+1. Click your answer in the radio button you choose for each question.
 2. Submit your answers by clicking the submit button.
 3. You will receive a score in an alert letting you know how many questions you answered correctly.
 4. The correct answer will appear under each question.
